@@ -1,0 +1,206 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bicycles by falbar 1\n"
+"POT-Creation-Date: 2016-07-08 21:10+0300\n"
+"PO-Revision-Date: 2016-06-24 15:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: Anton Kuleshov\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: class-falbar-bbf.php\n"
+
+#: class-falbar-bbf.php:146
+msgid "Settings"
+msgstr ""
+
+#: class-falbar-bbf.php:204
+msgid "Cleanup code"
+msgstr ""
+
+#: class-falbar-bbf.php:208
+msgid "Doubles pages"
+msgstr ""
+
+#: class-falbar-bbf.php:212
+msgid "Security"
+msgstr ""
+
+#: class-falbar-bbf.php:216
+msgid "Additionally"
+msgstr ""
+
+#: class-falbar-bbf.php:226
+msgid "Remove meta generator"
+msgstr ""
+
+#: class-falbar-bbf.php:229
+msgid "Removes the meta tag from head section."
+msgstr ""
+
+#: class-falbar-bbf.php:236
+msgid "Remove RSD link"
+msgstr ""
+
+#: class-falbar-bbf.php:239 class-falbar-bbf.php:249 class-falbar-bbf.php:269
+#: class-falbar-bbf.php:279
+msgid "Removes the link tag from head section."
+msgstr ""
+
+#: class-falbar-bbf.php:246
+msgid "Remove WLW manifest link"
+msgstr ""
+
+#: class-falbar-bbf.php:256
+msgid "Remove next and prev links"
+msgstr ""
+
+#: class-falbar-bbf.php:259
+msgid "Removes the link tags from head section."
+msgstr ""
+
+#: class-falbar-bbf.php:266
+msgid "Remove canonical link"
+msgstr ""
+
+#: class-falbar-bbf.php:276
+msgid "Remove shortlink link"
+msgstr ""
+
+#: class-falbar-bbf.php:286
+msgid "Disable emoji"
+msgstr ""
+
+#: class-falbar-bbf.php:289
+msgid "Removes the emoji code from head section."
+msgstr ""
+
+#: class-falbar-bbf.php:296
+msgid "Remove .recentcomments styles"
+msgstr ""
+
+#: class-falbar-bbf.php:299
+msgid "Removes .recentcomments styles from head section."
+msgstr ""
+
+#: class-falbar-bbf.php:310
+msgid "Remove attachment pages"
+msgstr ""
+
+#: class-falbar-bbf.php:313
+msgid "Removes attachment pages and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:320
+msgid "Remove archives date"
+msgstr ""
+
+#: class-falbar-bbf.php:323
+msgid "Removes all pages with the date archives and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:326 class-falbar-bbf.php:339
+msgid "Deactivate widget archives."
+msgstr ""
+
+#: class-falbar-bbf.php:333
+msgid "Remove archives tag"
+msgstr ""
+
+#: class-falbar-bbf.php:336
+msgid "Removes all pages with the tag archives and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:346
+msgid "Remove post pagination"
+msgstr ""
+
+#: class-falbar-bbf.php:349
+msgid "Removes the pagination from the post and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:352
+msgid "Example: /post-name/number"
+msgstr ""
+
+#: class-falbar-bbf.php:359
+msgid "Remove archives author"
+msgstr ""
+
+#: class-falbar-bbf.php:362
+msgid "Removes all pages with the author archives and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:373
+msgid "Hide login errors"
+msgstr ""
+
+#: class-falbar-bbf.php:376
+msgid "Change the error text so that attackers are unable to pick up login."
+msgstr ""
+
+#: class-falbar-bbf.php:383
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: class-falbar-bbf.php:386
+msgid "Disable XML-RPC mechanism."
+msgstr ""
+
+#: class-falbar-bbf.php:397
+msgid "Enable filename lowercase"
+msgstr ""
+
+#: class-falbar-bbf.php:400
+msgid "Gives the names of uploaded files to lowercase."
+msgstr ""
+
+#: class-falbar-bbf.php:407
+msgid "Disable RSS feeds"
+msgstr ""
+
+#: class-falbar-bbf.php:410 class-falbar-bbf.php:420
+msgid "Removes the link tags from head section and puts a redirect."
+msgstr ""
+
+#: class-falbar-bbf.php:417
+msgid "Disable REST API"
+msgstr ""
+
+#: class-falbar-bbf.php:427
+msgid "Remove links in admin bar"
+msgstr ""
+
+#: class-falbar-bbf.php:430
+msgid "Removes all links to wordpress.org from the toolbar."
+msgstr ""
+
+#: class-falbar-bbf.php:437
+msgid "Remove field \"Website\" from comment form"
+msgstr ""
+
+#: class-falbar-bbf.php:440
+msgid "Removes the field \"Website\" from comment form."
+msgstr ""
+
+#: class-falbar-bbf.php:443
+msgid "Works with standard commenting form."
+msgstr ""
+
+#: class-falbar-bbf.php:463
+msgid "Settings saved."
+msgstr ""
+
+#: class-falbar-bbf.php:468
+msgid "Dismiss this notice."
+msgstr ""
+
+#: class-falbar-bbf.php:907
+msgid "<strong>ERROR</strong>: Invalid Username or Password"
+msgstr ""

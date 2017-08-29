@@ -1,0 +1,50 @@
+/******************Common**************************/
+/******************Common**************************/
+
+.item{
+	margin-bottom: 12px;
+}
+
+/****************END Common************************/
+/****************END Common************************/
+
+/**************************************************/
+/********************Tabs**************************/
+
+#wr-tabs{
+	margin-top: 20px;
+}
+	#wr-tabs .tabs:after{
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+		#wr-tabs .tabs .tab{
+			background-color: #e4e4e4;
+			padding: 10px 20px;
+			cursor: pointer;
+			float: left;
+		}
+		#wr-tabs .tabs .tab:hover,
+		#wr-tabs .tabs .tab.active{
+			color: #000;
+		}
+		#wr-tabs .tabs .tab:hover{
+			background-color: #fff;
+		}
+		#wr-tabs .tabs .tab.active{
+			background-color: #f1f1f1;
+		}
+	#wr-tabs .content{
+		padding: 21px 10px 0;
+	}
+		#wr-tabs .content .tab-cont{
+			display: none;
+		}
+		#wr-tabs .content .tab-cont.active{
+			display: block;
+		}
+
+/******************END Tabs************************/
+/**************************************************/

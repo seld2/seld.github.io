@@ -1,0 +1,6 @@
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 20, attach: "photo,audio"});
+</script>
+Комментарии в контакте

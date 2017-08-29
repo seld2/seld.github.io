@@ -1,0 +1,154 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Kindred Posts"
+msgstr ""
+
+#. Short description.
+msgid "Use artificial intelligence to recommend content to your site visitors"
+msgstr ""
+
+#. Screenshot description.
+msgid "Easy to set up and use. Simply activate Kindred Posts then drag the Kindred Posts widget into your theme and you are good to go!"
+msgstr ""
+
+#. Found in description header.
+msgid "Open Source"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Kindred Posts uses artificial intelligence to learn how your website visitors use your site and recommends content based on their interests."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This easy-to-use plugin requires almost no setup. You simply activate the plugin and drag a widget into your theme to start recommending content. Kindred Posts handles the rest! If you want more control over the look and feel, you can modify the templates packaged with the plugin or call the PHP code itself."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "One of Kindred Posts' newest features is the ability to integrate with your website analytics. From the settings page, you can now add tracking code that allows you to see what recommendations are being read."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We recently open sourced the premium features in Kindred Posts so now everyone can enjoy all the cool things the plugin has to offer! If you like our plugin or appreciate our work, please consider donating. It will help keep the lights on and the coffee/code brewing."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you require support, you can visit our <a href=\"http://AiSpork.com/forums/\">Support Forum</a> from the Kindred Posts Settings page. We do monitor the WordPress.org support forums but you will receive faster support if post your questions on our <a href=\"http://AiSpork.com/forums/\">forum</a>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload 'kindred-posts' to the '/wp-content/plugins/' directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to Appearance &gt; Widgets to drag and drop the Kindred Posts widget into your theme"
+msgstr ""
+
+#. Found in installation list item.
+msgid "(Optional) Navigate to Settings &gt; Kindred Posts to set global settings and see information about the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Testing up to Wordpress 4.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding banner and logo for Wordpress.org repository. Testing up to Wordpress 4.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes for include files and global configuration variables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updating settings with ability to recommend custom post types, add tracking code, block IP addresses from being tracked, and delete certain visit data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "General bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding functions in kindred-posts-lib.php to allow developers to easily call the recommendation engine. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding and updating tests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updating tests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restructuring the template engine."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor updates to settings and display of the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated minor display issues on the settings page. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added feedback form to Admin Setting page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with \"Test Mode\" not displaying posts properly. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Created function to display the Kindred Posts widget that can be called by other plugins and themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Test Mode\" so you can now see how website visitors view the widget. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restructuring of plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgrades to the administration section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The initial version, stay tuned for updates and new features."
+msgstr ""
+
+#. Found in faq header.
+msgid "How long after setting up the plugin does it take to recommend content?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is Test Mode?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the \"theme\" directory?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Once you drop the Kindred Posts widget into your theme, your website visitors will start seeing recommended posts immediately. Your recommendations will become more targeted as more visitors navigate through your website and the plugin has a chance to learn about how visitors use your website."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Test mode takes all active Kindred Posts widgets offline and feeds some fake data into the recommendation engine so you can see how the plugin looks to your visitors. While the plugin is in test mode, you can still collect data about how visitors are accessing your website and use that data to make recommendations once Test Mode is disabled."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The \"theme\" directory allows you to control how different aspects of the plugin are displayed. If you know HTML and some PHP, you can customize how the widget is displayed within your theme using custom-templates.php. For more information, please refer to that file and templates.php within the \"theme\" directory. If you have any questions about customizing the widget, please ask them on our <a href=\"http://AiSpork.com/forums/\">forum</a>, we are more than happy to help you out."
+msgstr ""

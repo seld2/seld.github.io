@@ -1,0 +1,88 @@
+
+print('Запуск')
+import queue
+import time
+from ftplib import FTP
+import ftplib 
+import os
+import l
+import zipfile
+import webbrowser
+from tkinter import*
+from threading import Thread
+def check():
+	ch=en.get()
+	a=os.access(ch, os.F_OK )
+	if os.access (ch,os.F_OK)==True:
+	 	z.config(text='Дериктория существует.Нажмите на кнопку чтобы начать.')
+	 	b1.grid_remove()
+	 	b4.grid(row=2,column=2)
+	else: z.config(text='Дериктория не существует.Введите существующую дерикторию.')
+
+def vk2():
+	webbrowser.open	('https://vk.com/fhsteam1')	
+def vk():
+	webbrowser.open('https://vk.com/fraizerfeed')
+
+def load():
+	k=en.get()
+	z.config(text='Подключение..')
+	time.sleep(2)
+	ftp = ftplib.FTP(l.k, l.user,l.pas) 
+	Tk.update(window);
+	z.config(text='Создание дополнительных файлов..')
+	Tk.update(window);
+	time.sleep(2)
+	try:os.makedirs(k+"\\Death Time\\bin")
+	except OSError: 
+		z.config(text='Переустановка... Пожалуйста подождите.\nПрограмма может застыть на некоторое время ')
+		Tk.update(window); 
+	else:z.config(text='Скачивание архивов...Пожалуйста подождите.\nПрограмма может застыть на некоторое время')	
+	Tk.update(window); 
+	ftp.cwd('file')  
+	filename='tmp.zip' 
+	Tk.update(window);
+	local_filename = os.path.join(k+"\\Death Time\\bin", filename) 
+	Tk.update(window); 
+	lf = open(local_filename, "wb") 
+	Tk.update(window); 
+	ftp.retrbinary("RETR " + filename, lf.write, 8*1024) 
+	Tk.update(window); 
+	lf.close()  
+	Tk.update(window);
+	z.config(text='скачивание завершено,распаковка архивов..') 
+	time.sleep(4) 
+	Tk.update(window);
+	f_zip = zipfile.ZipFile(k+"\\Death Time\\bin\\tmp.zip") 
+	f_zip.extractall(k+"\\Death Time\\bin") 
+	f_zip.close()
+	Tk.update(window);
+	z.config(text='Распаковка завершена, удаление временных файлов...') 
+	os.remove(k+"\\Death Time\\bin\\tmp.zip")
+	Tk.update(window);
+	z.config(text='Создание файла uninstall.exe..')
+	un='uninstall.exe'
+	lo = os.path.join(k+"\\Death Time", un) 
+	lh = open(lo, "wb") 
+	ftp.retrbinary("RETR " + un, lh.write, 8*1024) 
+	lh.close()
+	Tk.update(window); 
+	ftp.quit()
+	z.config(text='Скачивание и установка Завершена...\nИгра установлена в дерикторию:'+k+'\\Death Time\\bin')
+#________________________________________________________________________________________________
+window=Tk()
+z=Label(text='status')
+x=Label(text='Впишите дерикторию для скачивания и установки:\n Пример c:\\, либо c:\\game')
+b1=Button(text="Проверить дерикторию",command=check)
+b2=Button(text="Перейти в группу",command=vk)
+b3=Button(text="Создатель в vk",command=vk2)
+b4=Button(text="Скачать и установить игру",command=load)
+en=Entry(width=60)
+en.grid(row=1,column=2)
+b1.grid(row=2,column=2)
+z.grid(row=3,column=2)
+x.grid(row=0,column=2)
+b2.grid(row=0,column=0)
+b3.grid(row=1,column=0)
+window.mainloop()
+Print('Готово')
